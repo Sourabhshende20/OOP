@@ -1,0 +1,16 @@
+import java.util.Scanner;
+abstract class Base
+{
+double l,b,area;
+void setDimentions()
+{
+double length,height;
+System.out.println(" Enter the length : ");
+Scanner s=new Scanner(System.in);
+length=s.nextDouble();
+System.out.println(" Enter the height : ");
+height=s.nextDouble();
+this.l=length; this.b=height;
+}
+abstract void computeArea();
+}
