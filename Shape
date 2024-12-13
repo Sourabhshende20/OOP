@@ -1,0 +1,16 @@
+class Triangle extends Base
+{
+void computeArea()
+{
+area=(l*b)/2;
+System.out.println("Area of Triangle is : "+this.area);
+}
+}
+class Rectangle extends Base
+{
+void computeArea()
+{
+area=(l*b);
+System.out.println("Area of Rectangle is : "+this.area);
+}
+}
