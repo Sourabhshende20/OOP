@@ -1,0 +1,13 @@
+public class DynamicBinding
+{
+public static void main(String[] args)
+{
+Triangle t=new Triangle();
+System.out.println("calculating Area of Triangle");
+t.setDimentions();
+t.computeArea();
+Rectangle r=new Rectangle();
+System.out.println("calcularing Area of Rectangle");
+r.setDimentions();
+r.computeArea();
+} }
